@@ -1,0 +1,13 @@
+{
+    "name": "Make",
+    "alias": "make",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Make\\Providers\\MakeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

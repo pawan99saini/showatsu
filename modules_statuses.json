@@ -1,0 +1,11 @@
+{
+    "Dashboard": true,
+    "Category": true,
+    "Student": true,
+    "Vehicle": true,
+    "Page": true,
+    "Make": true,
+    "Modal": true,
+    "VehicleName": true,
+    "Orders": true
+}
