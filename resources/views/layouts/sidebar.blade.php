@@ -27,6 +27,10 @@
                 </li>
                 <li> <a class="waves-effect waves-dark" href="{{route('page.index')}}" aria-expanded="false"><i
                             class="fa fa-file"></i><span class="hide-menu">Page</span></a></li>
+            <li> <a class="waves-effect waves-dark" href="{{route('enquiry.index')}}" aria-expanded="false"><i
+                            class="fa fa-phone"></i><span class="hide-menu">Enquiry</span></a></li>
+                            <li> <a class="waves-effect waves-dark" href="{{route('orders.index')}}" aria-expanded="false">
+                            <i class="fas fa-shipping-fast"></i><span class="hide-menu">Orders</span></a></li>
 
                 <li> <a class="waves-effect waves-dark" href="{{ route('logout') }}"
                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();"

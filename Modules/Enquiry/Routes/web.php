@@ -1,5 +1,5 @@
 <?php
-use Modules\Orders\Http\Controllers\OrdersController;
+use Modules\Enquiry\Http\Controllers\EnquiryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,5 +11,5 @@ use Modules\Orders\Http\Controllers\OrdersController;
 |
 */
 Route::middleware('auth')->group(function () {
-    Route::resource('orders', OrdersController::class,['names' => 'orders']);
+    Route::resource('enquiry', EnquiryController::class,['names' => 'enquiry']);
     });

@@ -25,7 +25,10 @@ class Enquiry extends Model
         'status'
     ];
 
-    
+    public function vehicle()
+    {
+        return $this->belongsTo(Vehicle::class,'vehicle_id','id');
+    }
 }
 
 

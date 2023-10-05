@@ -7,5 +7,6 @@
     "Make": true,
     "Modal": true,
     "VehicleName": true,
-    "Orders": true
+    "Orders": true,
+    "Enquiry": true
 }
